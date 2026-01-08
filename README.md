@@ -3,16 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <title>EpicDynasty – Jeux PC & Epic Games</title>
-
 <meta name="description" content="EpicDynasty propose des jeux PC et Epic Games avec accès VIP aux jeux rares">
 <meta name="author" content="YANCLO Bismark">
 <meta name="robots" content="index, follow">
-
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
 <header>
   <h1>🎮 EpicDynasty</h1>
   <p>Jeux PC & Epic Games</p>
@@ -26,21 +23,20 @@
 
 <section class="hero">
   <h2>Bienvenue sur EpicDynasty</h2>
-  <p>Télécharge des jeux PC et Epic Games</p>
+  <p>Télécharge des jeux PC et Epic Games, découvre les VIP rares !</p>
 </section>
 
 <footer>
   <p>Créé par YANCLO Bismark</p>
 </footer>
 
-<!-- StatCounter pour savoir qui visite -->
+<!-- StatCounter -->
 <script type="text/javascript">
 var sc_project=12345678;
 var sc_invisible=1;
 var sc_security="abcd1234";
 </script>
 <script src="https://www.statcounter.com/counter/counter.js"></script>
-
 </body>
 </html>
 <!DOCTYPE html>
@@ -53,7 +49,6 @@ var sc_security="abcd1234";
 </head>
 
 <body>
-
 <header>
   <h1>Jeux Epic Games gratuits</h1>
 </header>
@@ -61,14 +56,18 @@ var sc_security="abcd1234";
 <section class="games">
 
   <div class="game-card">
+    <img src="fortnite.jpg" alt="Fortnite">
     <h3>Fortnite</h3>
-    <p>Battle Royale</p>
+    <p>Battle Royale intense</p>
+    <span class="badge">Gratuit</span>
     <a href="https://store.epicgames.com/fr/p/fortnite" target="_blank">Télécharger</a>
   </div>
 
   <div class="game-card">
+    <img src="rocketleague.jpg" alt="Rocket League">
     <h3>Rocket League</h3>
     <p>Voitures & football</p>
+    <span class="badge">Gratuit</span>
     <a href="https://store.epicgames.com/fr/p/rocket-league" target="_blank">Télécharger</a>
   </div>
 
@@ -77,7 +76,6 @@ var sc_security="abcd1234";
 <footer>
   <p>Créé par YANCLO Bismark</p>
 </footer>
-
 <script src="https://www.statcounter.com/counter/counter.js"></script>
 </body>
 </html>
@@ -91,7 +89,6 @@ var sc_security="abcd1234";
 </head>
 
 <body>
-
 <header>
   <h1>Zone VIP 🔒</h1>
 </header>
@@ -99,14 +96,26 @@ var sc_security="abcd1234";
 <section class="games">
 
   <div class="game-card">
+    <img src="alanwake.jpg" alt="Alan Wake">
     <h3>Alan Wake Remastered</h3>
     <p>Jeu rare</p>
+    <span class="badge">1000 FCFA</span>
     <a href="vip.html">Accès VIP requis</a>
   </div>
 
   <div class="game-card">
+    <img src="metroexodus.jpg" alt="Metro Exodus">
     <h3>Metro Exodus</h3>
     <p>FPS survie</p>
+    <span class="badge">1000 FCFA</span>
+    <a href="vip.html">Accès VIP requis</a>
+  </div>
+
+  <div class="game-card">
+    <img src="jeu500.jpg" alt="Jeu moins rare">
+    <h3>Jeu Moins Rare</h3>
+    <p>Accessible à tous</p>
+    <span class="badge">500 FCFA</span>
     <a href="vip.html">Accès VIP requis</a>
   </div>
 
@@ -129,14 +138,13 @@ var sc_security="abcd1234";
 </head>
 
 <body>
-
 <header>
   <h1>👑 Pass VIP</h1>
 </header>
 
 <section class="hero">
   <h2>Accès aux jeux rares</h2>
-  <p>Prix : 1 000 FCFA</p>
+  <p>Prix : 500 FCFA (moins rares) / 1000 FCFA (rares)</p>
   <p>MTN Mobile Money : <strong>0153311061</strong></p>
 </section>
 
@@ -152,7 +160,7 @@ var sc_security="abcd1234";
 body {
   margin: 0;
   font-family: 'Orbitron', sans-serif;
-  background: #0a0f1e;
+  background: linear-gradient(135deg, #0a0f1e, #020617, #0a0f1e);
   color: white;
 }
 
@@ -164,9 +172,14 @@ header {
 }
 
 nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
   background: #020617;
   padding: 15px;
   text-align: center;
+  z-index: 1000;
+  box-shadow: 0 2px 10px #22c55e;
 }
 
 nav a {
@@ -178,6 +191,7 @@ nav a {
 .hero {
   padding: 30px;
   text-align: center;
+  margin-top: 60px;
 }
 
 .games {
@@ -192,6 +206,12 @@ nav a {
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 0 15px #22c55e;
+  transition: 0.3s;
+}
+
+.game-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px #22c55e;
 }
 
 .game-card a {
@@ -202,6 +222,22 @@ nav a {
   padding: 8px 15px;
   border-radius: 8px;
   text-decoration: none;
+  transition: 0.3s;
+}
+
+.game-card a:hover {
+  background: #facc15;
+  transform: scale(1.05);
+}
+
+.badge {
+  display: inline-block;
+  background: #facc15;
+  color: black;
+  padding: 3px 8px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  margin-bottom: 5px;
 }
 
 footer {
@@ -209,6 +245,17 @@ footer {
   padding: 15px;
   text-align: center;
   color: #9ca3af;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .games {
+    grid-template-columns: 1fr;
+  }
+  nav a {
+    display: block;
+    margin: 5px 0;
+  }
 }
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
