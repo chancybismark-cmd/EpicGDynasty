@@ -8,7 +8,6 @@
 <meta name="robots" content="index, follow">
 <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 <header>
   <h1>🎮 EpicDynasty</h1>
@@ -30,7 +29,7 @@
   <p>Créé par YANCLO Bismark</p>
 </footer>
 
-<!-- StatCounter -->
+<!-- StatCounter pour savoir qui visite -->
 <script type="text/javascript">
 var sc_project=12345678;
 var sc_invisible=1;
@@ -47,14 +46,12 @@ var sc_security="abcd1234";
 <meta name="robots" content="index, follow">
 <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 <header>
   <h1>Jeux Epic Games gratuits</h1>
 </header>
 
 <section class="games">
-
   <div class="game-card">
     <img src="fortnite.jpg" alt="Fortnite">
     <h3>Fortnite</h3>
@@ -70,7 +67,6 @@ var sc_security="abcd1234";
     <span class="badge">Gratuit</span>
     <a href="https://store.epicgames.com/fr/p/rocket-league" target="_blank">Télécharger</a>
   </div>
-
 </section>
 
 <footer>
@@ -87,14 +83,12 @@ var sc_security="abcd1234";
 <meta name="robots" content="index, follow">
 <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 <header>
   <h1>Zone VIP 🔒</h1>
 </header>
 
 <section class="games">
-
   <div class="game-card">
     <img src="alanwake.jpg" alt="Alan Wake">
     <h3>Alan Wake Remastered</h3>
@@ -118,13 +112,11 @@ var sc_security="abcd1234";
     <span class="badge">500 FCFA</span>
     <a href="vip.html">Accès VIP requis</a>
   </div>
-
 </section>
 
 <footer>
   <p>Créé par YANCLO Bismark</p>
 </footer>
-
 <script src="https://www.statcounter.com/counter/counter.js"></script>
 </body>
 </html>
@@ -136,7 +128,6 @@ var sc_security="abcd1234";
 <meta name="robots" content="index, follow">
 <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 <header>
   <h1>👑 Pass VIP</h1>
@@ -151,7 +142,6 @@ var sc_security="abcd1234";
 <footer>
   <p>Créé par YANCLO Bismark</p>
 </footer>
-
 <script src="https://www.statcounter.com/counter/counter.js"></script>
 </body>
 </html>
