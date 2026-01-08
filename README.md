@@ -33,7 +33,7 @@
   <p>Créé par YANCLO Bismark</p>
 </footer>
 
-<!-- STATCOUNTER (REMPLACE PAR TON CODE) -->
+<!-- StatCounter pour savoir qui visite -->
 <script type="text/javascript">
 var sc_project=12345678;
 var sc_invisible=1;
@@ -212,11 +212,11 @@ footer {
 }
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://TONPSEUDO.github.io/EpicDynasty/</loc></url>
-  <url><loc>https://TONPSEUDO.github.io/EpicDynasty/jeux.html</loc></url>
-  <url><loc>https://TONPSEUDO.github.io/EpicDynasty/jeux-vip.html</loc></url>
-  <url><loc>https://TONPSEUDO.github.io/EpicDynasty/vip.html</loc></url>
+  <url><loc>https://chancybismark-cmd.github.io/EpicDynasty/</loc></url>
+  <url><loc>https://chancybismark-cmd.github.io/EpicDynasty/jeux.html</loc></url>
+  <url><loc>https://chancybismark-cmd.github.io/EpicDynasty/jeux-vip.html</loc></url>
+  <url><loc>https://chancybismark-cmd.github.io/EpicDynasty/vip.html</loc></url>
 </urlset>
 User-agent: *
 Allow: /
-Sitemap: https://TONPSEUDO.github.io/EpicDynasty/sitemap.xml
+Sitemap: https://chancybismark-cmd.github.io/EpicDynasty/sitemap.xml
